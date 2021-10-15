@@ -2,8 +2,8 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/lenovo/A6020" name="ibratabian17/device_lenovo_A6020.git" remote="github" revision="10.x" />
- <project path="vendor/lenovo/A6020" name="hsj51/vendor_lenovo_A6020.git" remote="github" revision="10.x" />
- <project path="kernel/lenovo/msm8916" name="hsj51/kernel_lenovo_msm8916.git" remote="github" revision="10.x" />
+ <project path="device/lenovo/A6020" name="ibratabian17/device_lenovo_A6020.git" remote="github" revision="nad-3x" />
+ <project path="vendor/lenovo/A6020" name="hsj51/vendor_lenovo_A6020.git" remote="github" revision="eleven" />
+ <project path="kernel/lenovo/msm8916" name="hsj51/kernel_lenovo_msm8916.git" remote="github" revision="eleven" />
  
 </manifest>
