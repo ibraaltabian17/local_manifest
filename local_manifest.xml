@@ -6,7 +6,7 @@
 		fetch="https://github.com/hsj51" />
 
  <!-- Trees -->
- <project path="device/lenovo/A6020" name="android_device_lenovo_A6020.git" remote="ibra" revision="nad-3x" />
+ <project path="device/lenovo/A6020" name="android_device_lenovo_A6020.git" remote="ibra" revision="lineage-18.1" />
  <project path="vendor/lenovo/A6020" name="vendor_lenovo_A6020.git" remote="hrut" revision="eleven" />
  <project path="kernel/lenovo/msm8916" name="kernel_lenovo_msm8916.git" remote="hrut" revision="eleven" />
  
