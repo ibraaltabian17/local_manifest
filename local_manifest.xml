@@ -9,7 +9,5 @@
  <project path="device/lenovo/A6020" name="device_lenovo_A6020.git" remote="ibra" revision="nad-11" />
  <project path="vendor/lenovo/A6020" name="vendor_lenovo_A6020.git" remote="hrut" revision="eleven" />
  <project path="kernel/lenovo/msm8916" name="kernel_lenovo_msm8916.git" remote="hrut" revision="eleven" />
-	
- <remove-project name="android_vendor_xiaomi_juice" />
  
 </manifest>
