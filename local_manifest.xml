@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="ibra"
-		fetch="https://github.com/ibratabian17" />
+<remote name="sush"
+		fetch="https://github.com/Sushrut1101-ROMs" />
 <remote name="hrut"
 		fetch="https://github.com/hsj51" />
 
  <!-- Trees -->
- <project path="device/lenovo/A6020" name="device_lenovo_A6020.git" remote="ibra" revision="arrow-11" />
- <project path="vendor/lenovo/A6020" name="vendor_lenovo_A6020.git" remote="hrut" revision="eleven" />
+ <project path="device/lenovo/A6020" name="device_lenovo_A6020.git" remote="sush" revision="rr_10-dynamic" />
+ <project path="vendor/lenovo/A6020" name="vendor_lenovo_A6020.git" remote="sush" revision="ten" />
  <project path="kernel/lenovo/msm8916" name="kernel_lenovo_msm8916.git" remote="hrut" revision="eleven" />
  
 </manifest>
