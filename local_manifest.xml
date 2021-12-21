@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <remote name="github"
+fetch="https://github.com/" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/sdm845-common" name="sajidshahriar72543/device_xiaomi_sdm845-common.git" remote="github" revision="los-18.1" />
  <project path="vendor/xiaomi" name="sajidshahriar72543/vendor_xiaomi.git" remote="github" revision="11" />
