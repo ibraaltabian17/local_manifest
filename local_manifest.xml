@@ -5,6 +5,8 @@
 fetch="https://github.com/" />
  
  <!-- Trees -->
+ 
+ <project path="device/xiaomi/beryllium" name="ProjectHiper-ROM/android_device_xiaomi_beryllium" remote="github" revision="lineage-18.1" />
  <project path="device/xiaomi/sdm845-common" name="LineageOS/device_xiaomi_sdm845-common.git" remote="github" revision="lineage-18.1" />
  <project path="vendor/xiaomi" name="LineageOS/vendor_xiaomi.git" remote="github" revision="11" />
  <project path="kernel/xiaomi/sdm845" name="LineageOS/android_kernel_xiaomi_sdm845.git" remote="github" revision="lineage-18.1" />
