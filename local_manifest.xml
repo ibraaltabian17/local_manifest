@@ -6,8 +6,8 @@ fetch="https://github.com/" />
  
  <!-- Trees -->
  
- <project path="device/xiaomi/beryllium" name="ibratabian17/android_device_xiaomi_beryllium" remote="githuab" revision="lineage-18.1" />
- <project path="device/xiaomi/sdm845-common" name="ibratabian17/android_device_xiaomi_sdm845-common.git" remote="githuab" revision="lineage-18.1" />
+ <project path="device/xiaomi/beryllium" name="ibratabian17/android_device_xiaomi_beryllium" remote="githuab" revision="twelve" />
+ <project path="device/xiaomi/sdm845-common" name="ibratabian17/android_device_xiaomi_sdm845-common.git" remote="githuab" revision="twelve" />
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="githuab" revision="lineage-18.1" />
  <project path="kernel/xiaomi/sdm845" name="LineageOS/android_kernel_xiaomi_sdm845.git" remote="githuab" revision="lineage-18.1" />
  
