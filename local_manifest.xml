@@ -15,6 +15,5 @@ fetch="https://github.com/" />
  <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="pixel" revision="twelve" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang.git" remote="githuab" revision="master" />
  <project path="kernel/xiaomi/sdm845" name="LineageOS/android_kernel_xiaomi_sdm845.git" remote="githuab" revision="lineage-19.0" />
- <project path="lakgarg/packages_apps_GoogleCameraGo" name="packages/apps/GoogleCameraGo.git" remote="gitlab" revision="master" />
  
 </manifest>
