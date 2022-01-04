@@ -6,8 +6,8 @@ fetch="https://github.com/" />
  
  <!-- Trees -->
  
- <project path="device/xiaomi/beryllium" name="PixelExperience-Devices/android_device_xiaomi_beryllium" remote="githuab" revision="twelve" />
- <project path="device/xiaomi/sdm845-common" name="PixelExperience-Devices/android_device_xiaomi_sdm845-common.git" remote="githuab" revision="twelve" />
+ <project path="device/xiaomi/beryllium" name="PixelExperience-Devices/device_xiaomi_beryllium" remote="githuab" revision="twelve" />
+ <project path="device/xiaomi/sdm845-common" name="PixelExperience-Devices/device_xiaomi_sdm845-common.git" remote="githuab" revision="twelve" />
  <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium.git" remote="pixel-devices-blobs" revision="eleven" />
  <project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common.git" remote="pixel-devices-blobs" revision="twelve" />
  <project path="vendor/xiaomi-firmware" name="vendor_xiaomi-firmware.git" remote="pixel-devices-blobs" revision="twelve" />
