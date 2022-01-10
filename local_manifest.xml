@@ -8,7 +8,7 @@
 		fetch="https://github.com/jro1979oliver" />
 
  <!-- Trees -->
- <project path="device/lenovo/A6020" name="device_lenovo_A6020.git" remote="ibra" revision="lineage-18.1e" />
+ <project path="device/lenovo/A6020" name="device_lenovo_A6020.git" remote="ibra" revision="arrow-11.0" />
  <project path="vendor/lenovo/A6020" name="vendor_lenovo_A6020.git" remote="ibra" revision="eleven" />
  <project path="kernel/lenovo/msm8916" name="android_kernel_lenovo_msm8916.git" remote="jroliver" revision="lineage-18.1" />
  
