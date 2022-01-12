@@ -4,10 +4,13 @@
 		fetch="https://github.com/ibratabian17" />
 <remote name="hrut"
 		fetch="https://github.com/hsj51" />
+<remote name="jro"
+		fetch="https://github.com/jro1979oliver/" />
+	
 
  <!-- Trees -->
  <project path="device/lenovo/A6020" name="device_lenovo_A6020.git" remote="ibra" revision="nad-10" />
- <project path="vendor/lenovo/A6020" name="vendor_lenovo_A6020.git" remote="hrut" revision="eleven" />
- <project path="kernel/lenovo/msm8916" name="kernel_lenovo_msm8916.git" remote="hrut" revision="eleven" />
+ <project path="vendor/lenovo/A6020" name="vendor_lenovo_A6020.git" remote="hrut" revision="10.x" />
+ <project path="kernel/lenovo/msm8916" name="kernel_lenovo_msm8916.git" remote="jro" revision="eleven" />
  
 </manifest>
