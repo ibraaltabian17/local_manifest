@@ -11,6 +11,6 @@
  <!-- Trees -->
  <project path="device/lenovo/A6020" name="device_lenovo_A6020.git" remote="ibra" revision="nad-10" />
  <project path="vendor/lenovo/A6020" name="vendor_lenovo_A6020.git" remote="hrut" revision="10.x" />
- <project path="kernel/lenovo/msm8916" name="kernel_lenovo_msm8916.git" remote="jro" revision="eleven" />
+ <project path="kernel/lenovo/msm8916" name="android_kernel_lenovo_msm8916.git" remote="jro" revision="eleven" />
  
 </manifest>
