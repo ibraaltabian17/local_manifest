@@ -6,10 +6,11 @@ fetch="https://github.com/" />
  
  <!-- Trees -->
  
- <project path="device/xiaomi/beryllium" name="ibratabian17/android_device_xiaomi_beryllium" remote="githuab" revision="12.1" />
- <project path="device/xiaomi/sdm845-common" name="ibratabian17/android_device_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
- <project path="kernel/xiaomi/sdm845" name="ibratabian17/android_kernel_xiaomi_sdm845.git" remote="githuab" revision="12.1" />
- <project path="vendor/xiaomi/sdm845-common" name="ibratabian17/android_vendor_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
- <project path="vendor/xiaomi/sdm845-common-extra" name="ibratabian17/android_vendor_xiaomi_sdm845-common-extra.git" remote="githuab" revision="12.1" />
+ <project path="device/xiaomi/beryllium" name="ibratabian17/adevice_xiaomi_beryllium" remote="githuab" revision="12.1" />
+ <project path="device/xiaomi/sdm845-common" name="ibratabian17/device_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
+ <project path="kernel/xiaomi/sdm845" name="LineageOS/kernel_xiaomi_sdm845.git" remote="githuab" revision="lineage-19.1" />
+ <project path="vendor/xiaomi/beryllium" name="ibratabian17/vendor_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
+ <project path="vendor/xiaomi/sdm845-common" name="ibratabian17/vendor_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
+ <project path="vendor/xiaomi/sdm845-common-extras" name="ibratabian17/vendor_xiaomi_sdm845-common-extras.git" remote="githuab" revision="12.1" />
  
 </manifest>
