@@ -13,7 +13,6 @@
  <project path="vendor/xiaomi/beryllium" name="ibratabian17/vendor_xiaomi_beryllium.git" remote="github" revision="12.1" />
  <project path="vendor/xiaomi/sdm845-common" name="ibratabian17/vendor_xiaomi_sdm845-common.git" remote="github" revision="12.1" />
  <project path="vendor/xiaomi/sdm845-common-extras" name="ibratabian17/vendor_xiaomi_sdm845-common-extras.git" remote="github" revision="12.1" />
- <project path="kernel/xiaomi/sdm845" name="LineageOS/android_kernel_xiaomi_sdm845.git" remote="github" revision="lineage-19.1" />
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-19.1" />
+ <project path="kernel/xiaomi/sdm845" name="Painkiller3/kernel_xiaomi_sdm845.git" remote="github" revision="twelve" />
 
 </manifest>
