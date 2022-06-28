@@ -8,7 +8,7 @@
 		fetch="https://github.com/jro1979oliver" />
 
  <!-- Trees -->
- <project path="device/xiaomi/beryllium" name="ibratabian17/device_xiaomi_beryllium.git" remote="github" revision="12.1" />
+ <project path="device/xiaomi/beryllium" name="ibratabian17/device_xiaomi_beryllium.git" remote="github" revision="xd-12.1" />
  <project path="device/xiaomi/sdm845-common" name="ibratabian17/device_xiaomi_sdm845-common.git" remote="github" revision="12.1" />
  <project path="vendor/xiaomi/beryllium" name="ibratabian17/vendor_xiaomi_beryllium.git" remote="github" revision="12.1" />
  <project path="vendor/xiaomi/sdm845-common" name="ibratabian17/vendor_xiaomi_sdm845-common.git" remote="github" revision="12.1" />
