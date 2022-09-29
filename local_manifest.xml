@@ -6,9 +6,9 @@ fetch="https://github.com/" />
  
  <!-- Trees -->
  
- <project path="device/xiaomi/beryllium" name="ibratabian17/device_xiaomi_beryllium" remote="githuab" revision="12.1" />
- <project path="device/xiaomi/sdm845-common" name="ibratabian17/device_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
- <project path="kernel/xiaomi/sdm845" name="LineageOS/android_kernel_xiaomi_sdm845.git" remote="githuab" revision="lineage-19.1" />
+ <project path="device/xiaomi/beryllium" name="xdroid-devices/xd_device_xiaomi_beryllium" remote="githuab" revision="thirteen" />
+ <project path="device/xiaomi/sdm845-common" name="xdroid-devices/xd_device_xiaomi_sdm845-beryllium.git" remote="githuab" revision="thirteen" />
+ <project path="kernel/xiaomi/sdm845" name="https://github.com/PainKiller3/kernel_xiaomi_sdm845.git" remote="githuab" revision="thirteen" />
  <project path="vendor/xiaomi/beryllium" name="ibratabian17/vendor_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
  <project path="vendor/xiaomi/sdm845-common" name="ibratabian17/vendor_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
  <project path="vendor/xiaomi/sdm845-common-extras" name="ibratabian17/vendor_xiaomi_sdm845-common-extras.git" remote="githuab" revision="12.1" />
