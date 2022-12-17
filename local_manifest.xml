@@ -12,5 +12,6 @@ fetch="https://github.com/" />
  <project path="vendor/xiaomi/beryllium" name="ibratabian17/vendor_xiaomi_beryllium.git" remote="githuab" revision="12.1" />
  <project path="vendor/xiaomi/sdm845-common" name="ibratabian17/vendor_xiaomi_sdm845-common.git" remote="githuab" revision="12.1" />
  <project path="vendor/xiaomi/sdm845-common-extras" name="ibratabian17/vendor_xiaomi_sdm845-common-extras.git" remote="githuab" revision="12.1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang.git" remote="githuab" revision="master" />
  
 </manifest>
