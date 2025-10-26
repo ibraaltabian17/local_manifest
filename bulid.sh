@@ -1,6 +1,6 @@
 rm -rf .repo/local_manifests/ 
 repo init -u https://github.com/halcyonproject/manifest.git -b 16.0 --git-lfs 
- git clone https://github.com/ibratabian17/local_manifests.git --depth 1 -b halcyon-16 .repo/local_manifests &&  
+ git clone https://github.com/ibraaltabian17/local_manifests.git --depth 1 -b halcyon-16 .repo/local_manifests &&  
 # Sync the repositories
 if [ -f /usr/bin/resync ]
  then
