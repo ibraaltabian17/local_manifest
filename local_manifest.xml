@@ -7,8 +7,8 @@
         <remote name="LineageOSS" fetch="https://github.com/LineageOS" clone-depth="1" />
 
         <!-- Trees -->
-  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="ibrata" revision="16" />
-  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="ibrata" revision="16" />
+  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="ibrata" revision="clover-16" />
+  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="ibrata" revision="clover-16" />
   <project name="vendor_xiaomi_sdm845-common" path="vendor/xiaomi/sdm845-common" remote="ibrata" revision="16" />
   <project name="vendor_xiaomi_beryllium" path="vendor/xiaomi/beryllium" remote="ibrata" revision="16" />
   <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="ibrata" revision="16.0" />
