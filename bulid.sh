@@ -13,7 +13,7 @@ export BUILD_USERNAME=ibratabian17
 export BUILD_HOSTNAME=prjktla 
  source build/envsetup.sh
 
-cd ../../../hardware/lineage/compat && git fetch https://github.com/yaap/hardware_lineage_compat && git checkout FETCH_HEAD && cd ../../../
+cd hardware/lineage/compat && git fetch https://github.com/yaap/hardware_lineage_compat && git checkout FETCH_HEAD && cd ../../../
 
 # Build the ROM
 lunch clover_beryllium-bp3a-userdebug && mka clover
