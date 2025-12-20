@@ -13,9 +13,5 @@ export BUILD_USERNAME=ibratabian17
  export BUILD_HOSTNAME=crave 
  source build/envsetup.sh
 
-# Hax
-cd packages/modules/Connectivity && git fetch https://github.com/LineageOS/android_packages_modules_Connectivity refs/changes/72/452772/1 && git cherry-pick FETCH_HEAD
-cd ../../../hardware/lineage/compat && git fetch https://github.com/yaap/hardware_lineage_compat && git checkout FETCH_HEAD && cd ../../../
-
 # Build the ROM
 lunch halcyon_beryllium-bp2a-userdebug && mka carthage
