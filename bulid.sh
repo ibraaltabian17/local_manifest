@@ -1,6 +1,6 @@
 rm -rf .repo/local_manifests/ 
-repo init -u https://github.com/halcyonproject/manifest.git -b 16.0 --git-lfs 
- git clone https://github.com/ibraaltabian17/local_manifest.git --depth 1 -b halcyon-16 .repo/local_manifests &&  
+repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr1 --git-lfs
+ git clone https://github.com/ibraaltabian17/local_manifest.git --depth 1 -b pixelos-six .repo/local_manifests &&  
 # Sync the repositories
 if [ -f /usr/bin/resync ]
  then
@@ -13,9 +13,5 @@ export BUILD_USERNAME=ibratabian17
  export BUILD_HOSTNAME=crave 
  source build/envsetup.sh
 
-# Hax
-cd packages/modules/Connectivity && git fetch https://github.com/LineageOS/android_packages_modules_Connectivity refs/changes/72/452772/1 && git cherry-pick FETCH_HEAD
-cd ../../../hardware/lineage/compat && git fetch https://github.com/yaap/hardware_lineage_compat && git checkout FETCH_HEAD && cd ../../../
-
 # Build the ROM
-lunch halcyon_beryllium-bp2a-userdebug && mka carthage
+lunch custom_beryllium-bp3a-userdebug && m pixelos
