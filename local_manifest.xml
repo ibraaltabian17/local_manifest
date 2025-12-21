@@ -13,7 +13,7 @@
   <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium_419" remote="ibrata" revision="lineage-23.0" />
   <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845_419" remote="ibrata" revision="lineage-23.0_xiaomi" />
   <project path="vendor/lineage-priv/keys" name="nasigoreng" remote="ibraalta" revision="16" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="LineageOSS" revision="lineage-23.0"/>
+  <project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="github"/>
         <!---Temp-->
         
 </manifest>
