@@ -1,4 +1,7 @@
 rm -rf .repo/local_manifests/ 
+rm -rf device/
+rm -rf vendor/
+rm -rf kernel/
 repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr1 --git-lfs
  git clone https://github.com/ibraaltabian17/local_manifest.git --depth 1 -b pixelos-six .repo/local_manifests &&  
 # Sync the repositories
