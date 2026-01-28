@@ -13,10 +13,11 @@ else
 fi && 
 # Set up build environment
 export BUILD_USERNAME=ibratabian17 
- export BUILD_HOSTNAME=prjktla 
- source build/envsetup.sh
+export BUILD_HOSTNAME=prjktla 
+export KBUILD_BUILD_HOST=ibragtg
+source build/envsetup.sh
 
- rm -rf hardware/qcom-caf/sdm845/display
+rm -rf hardware/qcom-caf/sdm845/display
 rm -rf hardware/qcom-caf/sdm845/media
 rm -rf hardware/qcom-caf/sdm845/audio
 git clone https://github.com/Legendleo90/android_hardware_qcom_display hardware/qcom-caf/sdm845/display
@@ -31,4 +32,4 @@ cd device/lineage/sepolicy && git fetch https://github.com/Legendleo90/device_li
 cd device/qcom/sepolicy_vndr/legacy-um && git fetch https://github.com/Legendleo90/android_device_qcom_sepolicy_vndr && git cherry-pick a4b7e84aabdfed4e8c72257bbe2bffad4b19bee6 47ff8ac2c539f318f885caa5fa531484a56168cb 79f09bc36fb8ca57816e3b05b73c9f118bd12eef 9c7d2991a3581c01f19f6fb54398db23a12ffd09 48f2e4c02df278292aae523c4f5c90ef58ccb6f9 && cd ../../../..
 
 # Build the ROM
-lunch custom_beryllium-bp3a-userdebug && m installclean && m pixelos
+lunch custom_beryllium-bp3a-user && m installclean && m pixelos
