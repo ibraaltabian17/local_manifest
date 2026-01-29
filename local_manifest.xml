@@ -8,7 +8,7 @@
 
         <!-- Trees -->
   <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium_419" remote="ibrata" revision="pixelos-sixteen" />
-  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common_419" remote="ibrata" revision="pixelos-sixteen" />
+  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common_419" remote="ibrata" revision="lineage-23.0" />
   <project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common_419" remote="ibrata" revision="lineage-23.0" />
   <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium_419" remote="ibrata" revision="lineage-23.0" />
   <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845_419" remote="ibrata" revision="lineage-23.0_xiaomi" />
