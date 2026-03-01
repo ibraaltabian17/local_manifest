@@ -34,4 +34,4 @@ cd device/qcom/sepolicy_vndr/legacy-um && git fetch https://github.com/Dheeraj30
 
 
 # Build the ROM
-lunch custom_beryllium-bp3a-user && m installclean && m pixelos
+lunch custom_beryllium-bp3a-userdebug && m installclean && m pixelos
