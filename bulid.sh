@@ -25,7 +25,7 @@ git clone https://github.com/duckyduckG/android_hardware_qcom_display -b lineage
 git clone https://github.com/duckyduckG/android_hardware_qcom_audio -b lineage-23.2-caf-sm8250 hardware/qcom-caf/sdm845/audio
 
 # Qcom-caf
-cd hardware/qcom-caf/common && git fetch https://github.com/Dheeraj3031A/voltage_hardware_qcom-caf_common && git cherry-pick bd37399fed6856aba248b05c504ec027be2f3012 d51e482012b000cbd05b2a320606166ede5b6a68 fd8c59f63058ac0aa6471c5db05861f3fd57cc51 dd0418778fdcda21397542c4637a8abcc3303dfc && cd ../../..
+cd hardware/qcom-caf/common && git fetch https://github.com/Dheeraj3031A/voltage_hardware_qcom-caf_common && git cherry-pick bd37399fed6856aba248b05c504ec027be2f3012 d51e482012b000cbd05b2a320606166ede5b6a68 fd8c59f63058ac0aa6471c5db05861f3fd57cc51 && cd ../../..
 
 # Sepolicy
 cd device/lineage/sepolicy && git fetch https://github.com/Legendleo90/device_lineage_sepolicy && git cherry-pick fc4c8fee1d1bf1ff6241fb30285fb2d1b54ed559 && cd ../../..
