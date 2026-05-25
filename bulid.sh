@@ -21,8 +21,10 @@ source build/envsetup.sh
 # Hals
 rm -rf hardware/qcom-caf/sdm845/display
 rm -rf hardware/qcom-caf/sdm845/audio
+rm -rf hardware/qcom-caf/sdm845/media
 git clone https://github.com/duckyduckG/android_hardware_qcom_display -b lineage-23.2-caf-sm8250 hardware/qcom-caf/sdm845/display
 git clone https://github.com/duckyduckG/android_hardware_qcom_audio -b lineage-23.2-caf-sm8250 hardware/qcom-caf/sdm845/audio
+git clone https://github.com/duckyduckG/android_hardware_qcom_media -b lineage-23.2-caf-sm8150 hardware/qcom-caf/sdm845/media
 
 # Qcom-caf
 cd hardware/qcom-caf/common && git fetch https://github.com/Dheeraj3031A/voltage_hardware_qcom-caf_common && git cherry-pick bd37399fed6856aba248b05c504ec027be2f3012 d51e482012b000cbd05b2a320606166ede5b6a68 fd8c59f63058ac0aa6471c5db05861f3fd57cc51 dd0418778fdcda21397542c4637a8abcc3303dfc && cd ../../..
